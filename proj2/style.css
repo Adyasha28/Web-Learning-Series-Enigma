@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#40E0D0;
+  }
+  .face{
+    position:absolute;
+    height:170px;
+    width:280px;
+    background: #dbe9f4;
+    border-radius: 120px 120px 0px 0px;
+  }
+  .circle1{
+    position:absolute;
+    height:230px;
+    width:230px;
+    background: #dbe9f4;
+    border-radius: 100%;
+    top:145px;
+    left:-50px;
+  }
+  .circle2{
+    position:absolute;
+    height:230px;
+    width:230px;
+    background: #dbe9f4;
+    border-radius: 100%;
+    top:3px;
+    left:160px;
+  }
+  .rec{
+    position:absolute;
+    height:60px;
+    width:60px;
+    background:#dbe9f4;
+    top:170px;
+    right:100px;
+  }
+  .patch{
+    position:absolute;
+    background:#C4A484;
+    height:200px;
+    width:160px;
+    border-radius:120px 0px 120px 40px;
+    
+    }
+  .eye1{
+    position:absolute;
+    height:75px;
+    width:50px;
+    background:black;
+    border-radius:200px 200px 200px 200px ;
+    top:77px;
+    right:58px;
+    }
+  
+    .nose{
+      position:absolute ;
+      background-color: black;
+      top: 100px;
+      left:-9px;
+      height: 85px;
+      width: 85px;
+      border-radius: 25% 100% 25% 40%;
+     transform: rotateZ(-45deg);
+      box-shadow: inset -5px 5px 15px rgba(255, 255, 255, 0.781);
+  }
+  .eye2{
+    position:absolute;
+    height:75px;
+    width:50px;
+    background:black;
+    border-radius:200px 200px 200px 200px ;
+    top:-70px;
+    right:-55px;
+    }
+  
+  .ear1{
+      position:absolute;
+     background:#9d8862;
+    height:225px;
+    width:150px;
+    border-radius:100px 0px 150px 40px;
+    left:-130px;
+    transform:rotate(14deg);
+  }
+  
+  
+  .ear2{
+      position:absolute;
+     background:#9d8862;
+    height:225px;
+    width:150px;
+    border-radius:0px 100px 40px 150px;
+    right:-135px;
+    transform:rotate(-17deg);
+  }
+  .tongue{
+    position:absolute;
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    background: #e75480;
+    top:280px;
+    right:63px;
+  }
+  
+  
